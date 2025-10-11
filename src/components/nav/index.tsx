@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { navLinks, type SectionId } from "@/types/type.ts";
 import CustomLink from "@/components/nav/Link.tsx";
 import useMediaQuery from "@/hooks/useMediaQuery.ts";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+import { FaBarsStaggered } from "react-icons/fa6";
+import { HiXMark } from "react-icons/hi2";
 
 const NavBar = () => {
 	const [activeSection, setActiveSection] = useState<SectionId | null>(navLinks[0]?.id || null);
@@ -76,14 +77,14 @@ const NavBar = () => {
 							<>
 								<button className="p-2 rounded-full bg-button-brown animate cursor-pointer"
 								onClick={() => setIsMenuToggled((prev) => !prev)}>
-									<Bars3Icon className="h-6 w-6 text-white animate"/>
+									<FaBarsStaggered className="h-6 w-6 text-white animate"/>
 								</button>
 								{/*Mobile menu*/}
 								{!isAboveMediaScreen && isMenuToggled && (
 									<div className='fixed top-0 right-0 h-screen w-[300px] bg-neutral-50 drop-shadow-xl z-40 animate'>
 										<div className='flex justify-end p-6'>
 											<button onClick={() => setIsMenuToggled(false)}>
-												<XMarkIcon className='h-7 w-7 text-button-brown animate cursor-pointer'/>
+												<HiXMark className='h-7 w-7 text-button-brown animate cursor-pointer'/>
 											</button>
 										</div>
 										<div className='ml-[20%] flex flex-col gap-8 text-xl '>

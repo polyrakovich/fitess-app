@@ -8,7 +8,7 @@ const Home = () => {
 			id='home'
 			className='bg-neutral-50'
 		>
-			<div className="p-6 md:min-h-[800px] flex flex-col justify-center items-center gap-14 bg-[url(@/assets/icons/Home-background.png)] bg-cover">
+			<div className="p-6 md:min-h-[800px] flex flex-col justify-center items-center gap-14 bg-[url(@/assets/images/Home-background.png)] bg-cover">
 					<motion.div
 						initial='hidden'
 						whileInView='visible'
