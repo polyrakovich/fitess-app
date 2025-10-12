@@ -24,9 +24,16 @@ body,
 
 #ourClasses .swiper-button-next,
 #ourClasses .swiper-button-prev {
-    color: orange;
+    color: var(--color-button-brown);
 }
 
 #ourClasses .swiper-pagination-bullet-active {
-    background: orange;
+    background: var(--color-button-brown);
+}
+
+@media (max-width: 1124px) {
+    #ourClasses .swiper-button-next,
+    #ourClasses .swiper-button-prev {
+        display: none;
+    }
 }

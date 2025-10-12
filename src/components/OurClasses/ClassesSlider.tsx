@@ -24,7 +24,7 @@ const ClassesSlider = () => {
 					1024: {slidesPerView: 2},
 					1440: { slidesPerView: 3 },
 				}}
-				className=' w-full h-full'
+				className='w-full h-full'
 			>
 				{classesData.map((item: ClassType, index: number) => (
 					<SwiperSlide

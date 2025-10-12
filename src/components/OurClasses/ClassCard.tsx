@@ -7,7 +7,7 @@ type Props = {
 const ClassCard = ({title, image, description}: Props) => {
 	return (
 			<div
-				className='relative flex-center overflow-hidden rounded-md cursor-pointer'
+				className='relative mb-5 flex-center overflow-hidden rounded-md cursor-pointer'
 			>
 					<div
 						className="absolute top-3/4 x-20 px-6 max-w-[329px] text-white text-lg tracking-white rounded-md animate mobile-show-overlay"
