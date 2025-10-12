@@ -2,7 +2,7 @@ export const baseMotion = {
 	initial: 'hidden',
 	whileInView: 'visible',
 	viewport: {
-		once: 'true',
+		once: true,
 		amount: 0.5
 	},
 };

@@ -1,6 +1,6 @@
-
 import { motion } from "framer-motion";
 import ActionButton from "@/utils/ActionButton.tsx";
+import { baseMotion, slideUp } from "@/utils/motionPresets.ts";
 
 const Home = () => {
 	return (
@@ -10,14 +10,9 @@ const Home = () => {
 		>
 			<div className="p-6 md:min-h-[800px] flex flex-col justify-center items-center gap-14 bg-[url(@/assets/images/Home-background.png)] bg-cover">
 					<motion.div
-						initial='hidden'
-						whileInView='visible'
-						viewport={{once: true, amount: 0.5}}
+						{...baseMotion}
 						transition={{duration: 0.5}}
-						variants={{
-							hidden: {opacity: 0, y: -50},
-							visible: {opacity: 1, y: 0}
-						}}
+						variants={slideUp}
 						className="flex-col flex-between gap-10 z-10"
 					>
 						<div className="flex-col flex-center gap-2">
