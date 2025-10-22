@@ -1,0 +1,16 @@
+.flex-between {
+    @apply flex justify-between items-center;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+.animate {
+    @apply transition-all duration-500 ease-in-out;
+}
+
+.baseStyles {
+    @apply mb-5 w-full rounded-lg bg-neutral-50 px-5 py-3 placeholder-input-border border-1 border-input-border
+}
+
