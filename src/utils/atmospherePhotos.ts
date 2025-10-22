@@ -1,9 +1,9 @@
-import Pilates from "@/assets/images/atmosphere-pilates.jpg";
-import Vases from "@/assets/images/atmosphere-vases.jpg";
-import Namaste from "@/assets/images/atmosphere-back.jpg";
+import img1 from "/images/atmosphere-pilates.jpg";
+import img2 from "/images/atmosphere-vases.jpg";
+import img3 from "/images/atmosphere-back.jpg";
 
 export const atmospherePhotos = [
-	{ src: Pilates, alt: "Pilates" },
-	{ src: Vases, alt: "Vases" },
-	{ src: Namaste, alt: "Namaste" },
+	{ src: img1, alt: "Pilates" },
+	{ src: img2, alt: "Vases" },
+	{ src: img3, alt: "Namaste" },
 ];

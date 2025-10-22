@@ -1,9 +1,8 @@
 import type { ClassType } from "@/types/type.ts";
-
-import img1 from "@/assets/images/classes-image1.png";
-import img2 from "@/assets/images/classes-image2.png";
-import img3 from "@/assets/images/classes-image3.png";
-import img4 from "@/assets/images/classes-image4.png";
+import img1 from "/images/classes-image1.png";
+import img2 from "/images/classes-image2.png";
+import img3 from "/images/classes-image3.png";
+import img4 from "/images/classes-image4.png";
 
 export const classesData: Array<ClassType> = [
 	{

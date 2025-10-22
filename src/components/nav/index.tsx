@@ -1,4 +1,3 @@
-import Logo from "@/assets/icons/Santosha.svg";
 import ActionButton from "@/utils/ActionButton.tsx";
 import { useEffect, useState } from "react";
 import { navLinks, type SectionId } from "@/types/type.ts";
@@ -6,8 +5,9 @@ import CustomLink from "@/components/nav/Link.tsx";
 import useMediaQuery from "@/hooks/useMediaQuery.ts";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { HiXMark } from "react-icons/hi2";
-import Inst from "@/assets/icons/instagram-icon-brown.svg";
-import Telegram from "@/assets/icons/telegram-icon-brown.svg";
+import Logo from "/icons/Santosha.svg";
+import Instagram from "/icons/instagram-icon-brown.svg";
+import Telegram from "/icons/telegram-icon-brown.svg";
 
 const NavBar = () => {
 	const [activeSection, setActiveSection] = useState<SectionId | null>(
@@ -115,7 +115,7 @@ const NavBar = () => {
 											</h5>
 											<div className="flex gap-4.5 text-button-brown">
 												<a href="#">
-													<img src={Inst} alt="instagram-icon" />
+													<img src={Instagram} alt="instagram-icon" />
 												</a>
 												<a href="#">
 													<img src={Telegram} alt="telegram-icon" />

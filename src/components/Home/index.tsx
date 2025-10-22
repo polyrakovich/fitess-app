@@ -5,7 +5,7 @@ import { baseMotion, slideUp } from "@/utils/motionPresets.ts";
 const Home = () => {
 	return (
 		<section id="home" className="bg-neutral-50">
-			<div className="p-6 md:min-h-[800px] flex flex-col justify-center items-center gap-14 bg-[url(@/assets/images/Home-background.png)] bg-cover">
+			<div className="p-6 md:min-h-[800px] flex flex-col justify-center items-center gap-14 bg-[url(/images/Home-background.png)] bg-cover">
 				<motion.div
 					{...baseMotion}
 					transition={{ duration: 0.5 }}

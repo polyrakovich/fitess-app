@@ -1,7 +1,7 @@
-import Inst from "@/assets/icons/instagram-icon.svg";
-import Telegram from "@/assets/icons/telegram-icon.svg";
 import useMediaQuery from "@/hooks/useMediaQuery.ts";
-import Logo from "@/assets/icons/Santosha-white.svg";
+import Telegram from "/icons/telegram-icon.svg";
+import Inst from "/icons/instagram-icon.svg";
+import Logo from "/icons/Santosha-white.svg";
 
 const Footer = () => {
 	const isAboveMediaScreen = useMediaQuery("(min-width: 1120px)");
