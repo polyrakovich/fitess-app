@@ -6,6 +6,8 @@ import CustomLink from "@/components/nav/Link.tsx";
 import useMediaQuery from "@/hooks/useMediaQuery.ts";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { HiXMark } from "react-icons/hi2";
+import Inst from "@/assets/icons/instagram-icon-brown.svg";
+import Telegram from "@/assets/icons/telegram-icon-brown.svg";
 
 const NavBar = () => {
 	const [activeSection, setActiveSection] = useState<SectionId | null>(navLinks[0]?.id || null);
@@ -101,7 +103,21 @@ const NavBar = () => {
 													{label}
 												</CustomLink>
 											))}
-
+										</div>
+										<div className='p-10'>
+											<h5 className='mb-5 font-semibold text-button-brown'>Connect</h5>
+											<div className='flex gap-4.5 text-button-brown'>
+												<a href='#'>
+													<img src={Inst} alt='instagram-icon'/>
+												</a>
+												<a href='#'>
+													<img src={Telegram} alt='telegram-icon'/>
+												</a>
+											</div>
+										</div>
+										<div className='absolute bottom-0'>
+											<hr className="w-full text-button-brown" />
+											<p className='flex justify-start p-5 text-button-brown'>© 2025 Santosha. All rights reserved.</p>
 										</div>
 									</div>
 								)}
