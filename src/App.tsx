@@ -5,19 +5,17 @@ import OurClasses from "@/components/OurClasses";
 import ContactUs from "@/components/contact";
 import Footer from "@/components/Footer";
 
-
 function App() {
-
-  return (
-    <div className="app bg-neutral-50 text-gray-600">
-      <NavBar/>
-      <Home/>
-      <Benefits/>
-      <OurClasses/>
-      <ContactUs/>
-			<Footer/>
-    </div>
-  )
+	return (
+		<div className="app bg-neutral-50 text-gray-600">
+			<NavBar />
+			<Home />
+			<Benefits />
+			<OurClasses />
+			<ContactUs />
+			<Footer />
+		</div>
+	);
 }
 
-export default App
+export default App;
