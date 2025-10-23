@@ -27,9 +27,9 @@ const ContactUs = () => {
 	return (
 		<section
 			id="contactUs"
-			className="flex-center px-50 bg-[url(/images/contact-bg.png)] bg-cover min-h-[784px]"
+			className="flex-center xl:px-50 bg-[url(/images/contact-bg.png)] bg-cover min-h-[784px]"
 		>
-			<div className="xl:flex xl:gap-10 p-12 bg-neutral-50 rounded-lg">
+			<div className="xl:flex xl:gap-10 xl:w-auto w-3/4 xl:p-12 p-5 rounded-lg bg-neutral-50 ">
 				<div className="flex flex-col justify-between xl:flex-1">
 					<div className="flex flex-col gap-3">
 						<Heading>Contact Us</Heading>

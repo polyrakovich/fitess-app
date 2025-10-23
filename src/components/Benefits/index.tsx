@@ -34,7 +34,7 @@ const Benefits = () => {
 				{...baseMotion}
 				transition={{ duration: 0.5 }}
 				variants={slideUp}
-				className="md:flex-col items-center justify-between gap-20 mt-12 md:mt-28"
+				className="md:flex-col items-center justify-between gap-20 md:mt-20"
 			>
 				<motion.div
 					{...baseMotion}

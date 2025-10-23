@@ -5,7 +5,7 @@ import { baseMotion, slideUp } from "@/utils/motionPresets.ts";
 
 const OurClasses = () => {
 	return (
-		<section id="ourClasses" className="w-full bg-neutral-50 py-40">
+		<section id="ourClasses" className="w-full bg-neutral-50 pb-20">
 			<motion.div
 				{...baseMotion}
 				transition={{ duration: 0.5 }}
