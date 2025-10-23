@@ -66,7 +66,7 @@ const Benefits = () => {
 								key={index}
 								className="rounded-2xl>"
 							>
-								<img src={img.src} alt={img.alt} />
+								<img src={img.src} alt={img.alt} loading="lazy" />
 							</motion.div>
 						))}
 					</div>
